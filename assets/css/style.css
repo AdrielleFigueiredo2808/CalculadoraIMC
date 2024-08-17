@@ -1,0 +1,117 @@
+body {
+   background-color: #000; 
+   color: #fff; 
+   font-family: Arial, sans-serif;
+}
+
+#container {
+   width: 60%; 
+   margin: 0 auto;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center; 
+}
+
+#img {
+   flex: 1; 
+   text-align: center; 
+}
+
+#calculator {
+   flex: 1; 
+   background-color: #222; 
+   padding: 20px;
+   border-radius: 10px;
+}
+
+#weight-icon {
+   width: 100px;
+   height: auto;
+
+}
+
+#title {
+   text-align: center;
+   color: #FB0881; 
+   margin-bottom: 20px;
+}
+
+.input-box {
+   margin-bottom: 15px;
+}
+
+.input-field {
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+.input-field i {
+   color: #FB0881; 
+   margin-right: 10px;
+}
+
+input[type="number"], select {
+   border: 2px solid #FB0881; 
+   border-radius: 5px; 
+   padding: 10px;
+   background-color: #333;
+   color: #fff;
+   font-size: 16px; 
+   appearance: none;
+   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select {
+   padding-right: 60px; 
+}
+
+button {
+   border: 2px solid #FB0881; 
+   border-radius: 5px;
+   background-color: #FB0881; 
+   color: #fff; 
+   padding: 10px 20px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+   background-color: #e00070; 
+   border-color: #e00070; 
+}
+
+input[type="number"]:focus, select:focus {
+   border-color: #e00070;
+   outline: none; 
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+#result {
+   text-align: center;
+   margin-top: 20px;
+}
+
+#bmi {
+   font-size: 24px;
+   color: #FB0881;
+}
+
+#description {
+   margin-top: 10px;
+}
+
+#more_info {
+   text-align: center;
+   margin-top: 10px;
+}
+
+#more_info a {
+   color: #FB0881;
+   text-decoration: none;
+}
+
+#more_info a:hover {
+   text-decoration: underline;
+}

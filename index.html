@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+          
+            <img src="assets/images/ilustration.svg" alt="Ilustração sobre IMC">
+        </section>
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">Calculadora - IMC</h1>
+                <div class="input-box">
+                    <label for="age">Sua Idade</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <input type="number" id="age" required>
+                        <span>Anos</span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="height">Sua Altura Em Metros</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler"></i>
+                        <input type="number" id="height" step="0.01" required>
+                        <span>M</span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="weight">Seu Peso Em Kg</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                        <input type="number" id="weight" required>
+                        <span>kg</span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="sex">Seu Sexo</label>
+                    <div class="input-field">
+                        <i class="fas fa-venus-mars"></i> <!-- Ícone de gênero -->
+                        <select id="sex" required>
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="button" id="calculate">Calcular</button>
+            </form>
+            <div id="infos">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu Índice de Massa Corporal</span>
+                    </div>
+                    <div id="description"></div>
+                </div>
+            </div>
+           
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
