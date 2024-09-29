@@ -1,9 +1,5 @@
-![image alt](https://github.com/AdrielleFigueiredo2808/CalculadoraIMC/blob/aa23dc7935588dac83f207ae61378d197b5fdcb6/ilustration.svg)
 
-
-
-
-
+![Captura de tela 2024-09-29 154032](https://github.com/user-attachments/assets/d5e70ec0-5da0-46f7-8ef0-94ceb1e1c248)
 
 
 
